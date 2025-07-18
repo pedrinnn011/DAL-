@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DALÚ - Semijoias & Pratas</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(#e5e5e5, #cccccc);
+      background-image: url('https://i.postimg.cc/ZRwYmKkQ/metal-bg.jpg'); /* fundo metálico */
+      background-size: cover;
+      color: #333;
+    }
+
+    header {
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 10px #aaa;
+    }
+
+    header img {
+      max-width: 200px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #d4af37;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .banner {
+      background: url('https://i.postimg.cc/DzqLMfcR/banner-dalu.jpg') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px #000;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      color: #d4af37;
+      margin-bottom: 20px;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 0 20px;
+    }
+
+    .produto {
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 0 10px #ccc;
+    }
+
+    .produto img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    .produto h3 {
+      color: #555;
+      margin: 10px 0 5px;
+    }
+
+    .produto p {
+      color: #888;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .social a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.postimg.cc/FzLGrq0x/logo-dalu.png" alt="Logo DALÚ" />
+  </header>
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+    <a href="#login">Login</a>
+  </nav>
+  <section class="banner">
+    Confira nossas Semijoias e Pratas com Retirada e Frete!
+  </section>
+
+  <section id="produtos" class="section">
+    <h2>Produtos em Destaque</h2>
+    <div class="produtos">
+      <div class="produto">
+        <img src="https://i.postimg.cc/hPGk8N90/anel.jpg" alt="Anel de prata" />
+        <h3>Anel de Prata</h3>
+        <p>R$ 129,90</p>
+      </div>
+      <div class="produto">
+        <img src="https://i.postimg.cc/d1NdSwV7/brinco.jpg" alt="Brinco dourado" />
+        <h3>Brinco Dourado</h3>
+        <p>R$ 89,90</p>
+      </div>
+      <div class="produto">
+        <img src="https://i.postimg.cc/8Cmk0j0M/colar.jpg" alt="Colar de prata" />
+        <h3>Colar de Prata</h3>
+        <p>R$ 149,90</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="section">
+    <h2>Sobre a DALÚ</h2>
+    <p>Localizada na Avenida Perimetral Norte, Setor Taquaralto — próximo à Caixa Econômica e Americanas.
+    Vendemos com amor semijoias e pratas de qualidade, com retirada rápida na loja ou envio com frete. 💍✨</p>
+  </section>
+
+  <section id="contato" class="section">
+    <h2>Contato</h2>
+    <p><strong>Instagram:</strong> <a href="https://www.instagram.com/dalu_semijoiass" target="_blank">@dalu_semijoiass</a></p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/5563981482350" target="_blank">Clique aqui para conversar</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DALÚ - Semijoias & Pratas. Todos os direitos reservados.</p>
+    <div class="social">
+      <a href="https://www.instagram.com/dalu_semijoiass" target="_blank">Instagram</a> |
+      <a href="https://wa.me/5563981482350" target="_blank">WhatsApp</a>
+    </div>
+  </footer>
+</body>
+</html>
+
